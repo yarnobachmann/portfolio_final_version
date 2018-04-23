@@ -1,0 +1,151 @@
+/* left bar */
+
+.left-bar {
+  background-color: #2b2d2c;
+}
+
+.bar-project {
+  height: 280px;
+  background-color: #2b2d2c;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+}
+
+.arrow1 {
+  position: absolute;
+  top: 35%;
+  width: 60%;
+  left: 20%;
+}
+
+.arrow2 {
+  position: absolute;
+  top: 55%;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 60%;
+  left: 20%;
+}
+
+
+
+/* projects */
+
+.anchor {
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+
+.space {
+  height: 200px;
+}
+
+.space-bottom {
+  margin-bottom: 10%;
+}
+
+.project h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.project{
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #c6314f;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project:hover{
+  opacity: 1;
+}
+
+/* responsive mobile */
+
+@media only screen and (min-width: 320px) {
+
+  .col-1{
+    display: none;
+  }
+  .col-11{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+      max-width: 100%;
+  }
+
+  .bar-project {
+    height: 93px;
+  }
+
+  .space {
+    height: 74px;
+}
+.project h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+}
+
+/* responsive desktop */
+
+@media screen and (min-width: 1024px){
+  .bar-project {
+    height: 164px;
+  }
+  .col-1{
+    display: inline-block;
+  }
+  .col-11{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 91.666667%;
+            flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+  }
+
+  .space{
+    height: 175px;
+  }
+  .project h1 {
+      font-size: 60px;
+      font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .bar-project {
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 1920px){
+.bar-project {
+    height: 215px;
+}
+}
+
+@media screen and (min-width: 2560px){
+  .bar-project {
+      height: 280px;
+  }
+
+  .space {
+    height: 250px;
+}
+}

@@ -1,0 +1,300 @@
+/* left bar */
+
+.left-banner {
+  background-color: #2b2d2c;
+}
+
+
+
+/* banner */
+
+.left-banner {
+  background-image: url('/img/banners/over.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.yarno {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.yarno-svg {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.banner-over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* info text */
+
+.top-text {
+  position: absolute;
+  top: 25%;
+  font-size: 14px;
+}
+
+.left-text {
+  position: absolute;
+  top: 60%;
+  font-size: 14px;
+}
+
+/* responsive mobile */
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .hide {
+    display: none;
+  }
+
+  .col-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .top-text {
+    font-size: 9px;
+    top: 15%;
+
+  }
+
+  .left-text {
+    font-size: 9px;
+      top: 42%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 760px) {
+  .hide {
+    display: none;
+  }
+
+  .col-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .top-text {
+    font-size: 10px;
+    top: 15%;
+
+  }
+
+  .left-text {
+    font-size: 10px;
+      top: 42%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 760px) {
+  .hide {
+    display: none;
+  }
+
+  .col-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .top-text {
+    font-size: 12px;
+    top: 15%;
+
+  }
+
+  .left-text {
+    font-size: 12px;
+      top: 42%;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 760px) {
+  .hide {
+    display: none;
+  }
+
+  .col-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .top-text {
+    font-size: 12px;
+    top: 15%;
+
+  }
+
+  .left-text {
+    font-size: 12px;
+      top: 42%;
+  }
+  .yarno {
+    width: 40%;
+}
+.yarno-svg {
+    width: 40%;
+}
+}
+
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
+
+  .top-text {
+    font-size: 20px;
+  }
+
+  .left-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-height: 361px) {
+
+  .top-text {
+    font-size: 10px;
+  }
+
+  .left-text {
+    font-size: 10px;
+  }
+
+  .yarno {
+    width: 40%;
+}
+.yarno-svg {
+    width: 40%;
+}
+}
+
+@media screen and (min-width: 812px) and (max-height: 412px) {
+
+  .top-text {
+    font-size: 10px;
+  }
+
+  .left-text {
+    top: 57%;
+    font-size: 10px;
+  }
+}
+
+/* responsive desktop */
+
+@media screen and (min-width: 1024px) and (max-height: 770px) {
+  .hide {
+    display: inline;
+  }
+
+  .col-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666667%;
+            flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .top-text {
+    top: 25%;
+    font-size: 15px;
+  }
+
+  .left-text {
+    top: 60%;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .top-text {
+    top: 25%;
+    font-size: 19px;
+  }
+
+  .left-text {
+    top: 60%;
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-height:801px) and (min-height: 750px;) {
+  .top-text {
+    top: 25%;
+    font-size: 17px;
+  }
+
+  .left-text {
+    top: 60%;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-height:801px) {
+  .top-text {
+    font-size: 17px;
+  }
+
+  .left-text {
+        top: 56%;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .top-text {
+    top: 25%;
+    font-size: 21px;
+  }
+
+  .left-text {
+    top: 60%;
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 2560px) and (min-height: 1440px) {
+  .top-text {
+    top: 25%;
+    font-size: 31px;
+  }
+
+  .left-text {
+    top: 60%;
+    font-size: 31px;
+  }
+}
+
+@media screen and (min-width: 2560px) and (min-height: 1080px) {
+  .top-text {
+    top: 25%;
+    font-size: 29px;
+  }
+
+  .left-text {
+    top: 60%;
+    font-size: 29px;
+  }
+}

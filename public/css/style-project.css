@@ -1,0 +1,424 @@
+
+/* banner */
+
+.banner-project {
+  max-width: 500px;
+  top: 40%;
+  position: absolute;
+}
+
+/* text */
+
+.top-text {
+  position: absolute;
+  top: 40%;
+  height: 100%;
+  font-size: 24px;
+}
+
+.left-text {
+  position: absolute;
+  top: 90%;
+  font-size: 24px;
+}
+
+/* logo */
+
+.project-logo {
+  position: absolute;
+  left:2%;
+  top:2%;
+      max-height: 64px;
+}
+
+/* afbeelding */
+
+.image-project {
+  max-width: 500px;
+  max-height: 500px;
+  top: 40%;
+  right: 10%;
+  position: absolute;
+}
+
+/* responsive mobile */
+
+@media screen and (min-width: 320px) and (max-width: 760px), (orientation: portrait) {
+  .hide {
+    display: none
+  }
+
+  .project-logo {
+    top: 8%;
+    width: 52%;
+    max-height: 112px;
+
+}
+
+.top-text {
+    top: 30%;
+    font-size: 12px;
+    margin-left: 2%!important;
+    -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 50%!important;
+            flex: 0 0 50%!important;
+    max-width: 50%!important;
+}
+
+.left-text {
+  top: 60%;
+  font-size: 12px;
+  margin-left: 50%!important;
+  -webkit-box-flex: 0!important;
+      -ms-flex: 0 0 50%!important;
+          flex: 0 0 50%!important;
+  max-width: 50%!important;
+}
+
+
+}
+
+/* responsive landscape */
+
+@media screen and (min-width:568px) and (min-width: 360px){
+  .top-text {
+      top: 44%;
+    }
+    .left-text {
+      top: 70%;
+    }
+  }
+
+
+
+
+/* responsive desktop */
+
+@media screen and (min-width: 768px) {
+  img[alt="image-project"] {
+    display: inline-block;
+  }
+  .banner-project {
+    max-width: 300px;
+  }
+  .project-logo {
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    width: 61%;
+}
+
+.top-text {
+    top: 26%;
+}
+
+.image-project {
+    max-width: 287px;
+    max-height: 287px;
+    right: 10%;
+}
+
+.top-text {
+    font-size: 20px;
+}
+
+.left-text {
+    font-size: 20px;
+}
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .banner-project {
+    max-width: 300px;
+  }
+.col-12 {
+  overflow-y: scroll!important;
+}
+
+  .project-logo {
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    width: 61%;
+    max-height: 212px;
+}
+
+.top-text {
+    top: 39%;
+}
+
+.image-project {
+    max-width: 230px;
+    max-height: 230px;
+    right: 8%;
+}
+
+.top-text {
+    font-size: 18px;
+}
+
+.left-text {
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) and (min-width:820px;) {
+  .image-project {
+    display: inline-block;
+    max-width: 300px;
+    max-height: 300px;
+    right: 10%;
+  }
+  .banner-project {
+    max-width: 300px;
+  }
+  .project-logo {
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    width: 61%;
+    max-height: 212px;
+}
+
+.top-text {
+    top: 26%;
+}
+
+.image-project {
+    max-width: 287px;
+    max-height: 287px;
+    right: 10%;
+}
+
+.top-text {
+    font-size: 20px;
+}
+
+.left-text {
+    font-size: 20px;
+}
+}
+
+
+@media screen and (min-width: 1280px) {
+  .banner-project {
+    max-width: 384px;
+}
+  .project-logo {
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    width: 61%;
+    max-height: 265px;
+}
+
+.image-project {
+    max-width: 364px;
+    max-height: 364px;
+    right: 8%;
+}
+
+.top-text {
+    font-size: 22px;
+}
+
+.left-text {
+    font-size: 22px;
+    top: 84%;
+}
+}
+
+@media screen and (min-width: 1280px) and (max-height: 800px) {
+  .banner-project {
+    max-width: 384px;
+}
+  .project-logo {
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    width: 50%;
+    max-height: 252px;
+}
+
+.image-project {
+    max-width: 364px;
+    max-height: 364px;
+    right: 8%;
+}
+
+.top-text {
+    font-size: 22px;
+}
+
+.left-text {
+    font-size: 22px;
+    top: 91%;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .banner-project {
+    max-width: 384px;
+}
+  .project-logo {
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    width: 50%;
+    max-height: 244px;
+}
+
+.image-project {
+    max-width: 364px;
+    max-height: 364px;
+    right: 11%;
+}
+
+.top-text {
+    font-size: 24px;
+}
+
+.left-text {
+    font-size: 24px;
+    top: 88%;
+}
+}
+
+@media screen and (min-width: 1680px) {
+  .banner-project {
+    max-width: 490px;
+}
+  .project-logo {
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    width: 50%;
+    max-height: 323px;
+
+}
+
+.image-project {
+    max-width: 441px;
+    max-height: 441px;
+    right: 11%;
+}
+
+.top-text {
+    font-size: 26px;
+}
+
+.left-text {
+    font-size: 26px;
+    top: 88%;
+}
+}
+
+@media screen and (min-width: 1920px) {
+  .image-project{
+    max-width: 480px;
+    max-height: 480px;
+    right: 12%;
+    max-height: 323px;
+
+  }
+  .banner-project {
+    max-width: 570px;
+}
+.top-text {
+    font-size: 30px;
+}
+
+.left-text {
+    font-size: 30px;
+    top: 88%;
+}
+}
+
+@media screen and (min-width: 2560px){
+  .project-logo{
+        width: 41%;
+            max-height: 356px;
+  }
+  .banner-project{
+    max-width: 748px;
+  }
+  .image-project {
+    max-width: 570px;
+    max-height: 643px;
+  }
+
+  .top-text {
+      font-size: 48px;
+  }
+
+  .left-text {
+      font-size: 48px;
+      top: 88%;
+  }
+}
+
+@media screen and (min-width:812px) and (max-width: 1023px){
+  .top-text {
+      top: 44%;
+      font-size: 11px;
+    }
+    .left-text {
+      top: 72%;
+      font-size: 11px;
+    }
+
+    .image-project {
+      max-width: 118px;
+      max-height: 118px;
+      right: 12%;
+    }
+
+    .banner-project {
+      max-width: 245px;
+    }
+    .project-logo {
+      left: 2%;
+      top: 4%;
+      width: 31%;
+          max-height: 86px;
+  }
+  }
+
+
+  @media screen and (min-width: 1366px) and (min-height: 1024px) and (max-height: 1050px;) {
+    .image-project {
+      display: inline-block;
+      max-width: 300px;
+      max-height: 300px;
+      right: 10%;
+    }
+    .banner-project {
+      max-width: 300px;
+    }
+    .project-logo {
+      position: absolute;
+      left: 2%;
+      top: 4%;
+      width: 61%;
+  }
+
+  .top-text {
+      top: 40%;
+  }
+
+  .image-project {
+      max-width: 287px;
+      max-height: 287px;
+      right: 10%;
+  }
+
+  .top-text {
+      font-size: 20px;
+  }
+
+  .left-text {
+      font-size: 20px;
+  }
+  }

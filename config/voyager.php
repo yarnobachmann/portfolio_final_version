@@ -160,7 +160,8 @@ return [
         ],
 
         'widgets' => [
-
+          'App\\widgets\\ImagesWidget',
+          'App\\widgets\\ProjectWidget',
         ],
 
     ],
